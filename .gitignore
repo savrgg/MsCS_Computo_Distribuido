@@ -37,3 +37,4 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+/proyecto-computo-distribuido/Sistema/nbproject/private/
