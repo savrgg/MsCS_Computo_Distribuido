@@ -1,0 +1,90 @@
+\documentclass[oneside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} % espanol
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{lscape}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{dsfont}
+\usepackage{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage[export]{adjustbox}
+\usepackage{wrapfig}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{fancyhdr}
+
+\usepackage[svgnames]{xcolor}
+\usepackage{listings}
+
+\lstset{language=R,
+  language=R,                    
+  basicstyle=\scriptsize\ttfamily, 
+  numbers=left,              
+  numberstyle=\tiny\color{Blue}, 
+  stepnumber=1,                  
+  numbersep=5pt,                
+  backgroundcolor=\color{white}, 
+  showspaces=false,              
+  showstringspaces=false,        
+  showtabs=false,                
+  frame=single,                  
+  rulecolor=\color{black},         tabsize=2,                     
+  captionpos=b,                  
+  breaklines=true,               
+  breakatwhitespace=false,       
+  keywordstyle=\color{RoyalBlue},
+  commentstyle=\color{YellowGreen},  
+  stringstyle=\color{ForestGreen}  
+}
+
+
+\usepackage{minted}
+\usemintedstyle{manni}
+
+\pagenumbering{arabic}
+
+\pagestyle{fancy}
+%\renewcommand{\chaptername}[1]{ \markboth{#1}{} }
+\fancyhead[R]{\rightmark}
+\fancyhead[L]{\includegraphics[width=.1\textwidth,left]{imgs/logo-ITAM.png}}
+
+\fancypagestyle{plain}{
+    \fancyhead[R]{\rightmark}
+    \fancyhead[L]{\includegraphics[width=.1\textwidth,left]{imgs/logo-ITAM.png}}
+} 
+ 
+\begin{document}
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.15\textwidth]{imgs/logo-ITAM.png}
+	    \par\vspace{2cm}
+	{\huge\bfseries Sistemas Distribuidos\par}
+	    \vspace{1cm}
+	    
+	{\Large Salvador García González - 119718\par}
+	{Maestría en Ciencias en Computación\par}
+	\vspace{0.5cm}
+		
+	{\Large Tarea Extra 1\par}
+	    \vspace{0.5cm}
+	{\Large Ejercicios Criptografía \par}
+	    \vspace{1cm}
+	{\Large Primavera 2021\par}
+	    \vfill
+	Profesor:\par
+	    \textsc{Marcelo Mejía Olvera}
+	    \vfill
+\end{titlepage}
+
+%\tableofcontents
+\input{Chapters/Tarea04.tex}
+%\bibliographystyle{IEEEtran}
+%\bibliography{Ref}
+\end{document}
