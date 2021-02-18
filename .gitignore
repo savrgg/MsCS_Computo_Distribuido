@@ -39,3 +39,5 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 /proyecto-computo-distribuido/Sistema/nbproject/private/
+*.DS_Store
+.DS_Store
